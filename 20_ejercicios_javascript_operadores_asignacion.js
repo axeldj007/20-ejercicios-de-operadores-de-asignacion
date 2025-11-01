@@ -192,3 +192,9 @@ let totalDePiezas = 0;
 console.log('el total de piezas producidas es: ' + totalDePiezas);
 
 //Ejercicio 16
+let botellasProducidas = 350;
+let produccionExtra = 3;
+let totalBotellas = 0;
+totalBotellas ++;
+totalBotellas += botellasProducidas*produccionExtra;
+console.log("El total de botellas producidas es: " + totalBotellas);
